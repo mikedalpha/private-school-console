@@ -13,6 +13,7 @@ namespace athanasoglou_michael_individual_part_A
         public List<Assignment> Assignments = new List<Assignment>();
 
         public List<Course> Courses = new List<Course>();
+        public List<Course> SuperCourses = new List<Course>();
 
         public Student(string firstName, string lastName, DateTime dateOfBirth, decimal tuitionFees)
         {
